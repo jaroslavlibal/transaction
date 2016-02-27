@@ -1,0 +1,21 @@
+{
+  "name": "jaroslavlibal/transaction",
+  "type": "library",
+  "description": "Nested transactions manager",
+  "keywords": ["transaction", "mysql", "dibi"],
+  "license": ["LGPL-3.0"],
+  "authors": [
+    {
+      "name": "Jaroslav Líbal",
+      "homepage": "https://www.jaroslavlibal.cz"
+    }
+  ],
+  "require": {
+    "php": ">= 5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JaroslavLibal\\Transaction\\": "src/"
+    }
+  }
+}
