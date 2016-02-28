@@ -2,6 +2,8 @@
 
 namespace JaroslavLibal\Transaction\Adapters;
 
+use DibiConnection;
+
 
 /**
  * @author Jaroslav Líbal <mail@jaroslavlibal.cz>
